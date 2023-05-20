@@ -30,6 +30,8 @@ app.get("/", (req, res) => {
 
 
 // Boradcasting the api over the server at port 443 commonly used port for https requests
-app.listen(443, () => { //Use env to hide port
+app.listen(5000, () => { //Use env to hide port
     console.log("Sever has started")
 })
+
+module.exports = app;
